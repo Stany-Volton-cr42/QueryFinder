@@ -1,3 +1,6 @@
+# Node.js dependencies
+node_modules/
+
 # Logs
 logs
 *.log
@@ -7,19 +10,25 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-.env
-node_modules
-dist
-dist-ssr
-*.local
+# Build output
+dist/
+dist-ssr/
+build/
+
+# Cache directories
+.cache/
+.vite/
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+.vscode/
+.idea/
+*.swp
+*.swo
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+
+# System files
+Thumbs.db
+
+# ESLint and Tailwind CSS cache
+.eslintcache
+.postcssrc
