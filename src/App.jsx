@@ -145,7 +145,7 @@ function App() {
         {/* Application header section with dark mode toggle */}
         <header className="text-center py-4 relative">
           <a
-            href="https://github.com/Vishesh-Pandey/chat-ai"
+            href="https://query-finder-swart.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="block"
